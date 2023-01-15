@@ -1,3 +1,9 @@
+h1,p,h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-center{
+    text-align: center;
+}
 #red{
     background-color: red;
     color:white;
@@ -9,7 +15,7 @@
     background-color: yellow;
 }
 .title-box{
-    margin:30px 0;
+    margin:10px;
     border:2px solid black;
     text-align: left;
     background-color: grey;
@@ -25,8 +31,41 @@ body{
     padding-top:50px;
 }
 h2{
-    margin:0
+    margin:0;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    left: calc(100% - 152px);
+    top:-2px;
+    border:2px solid black;
 }
 p{
     margin:10px;
+}
+.right-aligned{
+    position: relative;
+    
+}
+
+@media (min-width: 992px) {
+    .col-lg-4{
+        width: calc(100% / 3 - 24px);
+        float: left;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+    .col-md-6{
+        width: calc(100% / 2 - 24px);
+        float: left;
+    }
+    .col-md-12{
+        width: calc(100% - 24px);
+        float: left;
+    }
+}
+@media (max-width: 767px)  {
+    .col-sm-12{
+        width: calc(100% - 24px);
+        float: left;
+    }
 }
