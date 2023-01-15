@@ -1,0 +1,32 @@
+#red{
+    background-color: red;
+    color:white;
+}
+#pink{
+    background-color: pink;
+}
+#yellow{
+    background-color: yellow;
+}
+.title-box{
+    margin:30px 0;
+    border:2px solid black;
+    text-align: left;
+    background-color: grey;
+}
+.title{
+    margin:0;
+    width:150px;
+    text-align: center;
+    border:2px solid black;
+    margin:-2px;
+}
+body{
+    padding-top:50px;
+}
+h2{
+    margin:0
+}
+p{
+    margin:10px;
+}
